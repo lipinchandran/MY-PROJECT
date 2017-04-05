@@ -1,9 +1,10 @@
 #include <stdio.h>
 void main()
 {
-int a,b,Product;
-printf("Enter Two Numbers\n");
-scanf("\n%d\n%d",&a,&b);
-Product=a*b;
-printf("\nProduct is =%d",Product);
+printf("hello");
+int a=0,b=0,sum=0;
+printf("Enter two numbers...");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("The sum is %d",sum);
 }
